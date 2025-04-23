@@ -1,13 +1,6 @@
 {
     "version": 8,
-    "name": "Custom OSM Raster Style",
-    "zoom": 1,
-    "pitch": 0,
-    "center": [
-        0,
-        0
-    ],
-    "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=kznYvrAC6DrOZXPCW05C",
+    "name": "Hexagon-WMS-WA",
     "sources": {
         "wms-imagery": {
             "type": "raster",
