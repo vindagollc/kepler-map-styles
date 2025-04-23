@@ -1,6 +1,13 @@
 {
     "version": 8,
     "name": "Hexagon-WMS-WA",
+    "zoom": 1,
+    "pitch": 0,
+    "center": [
+        0,
+        0
+    ],
+    "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=kznYvrAC6DrOZXPCW05C",
     "sources": {
         "wms-imagery": {
             "type": "raster",
