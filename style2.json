@@ -15,7 +15,7 @@
         {
             "id": "osm-tiles",
             "type": "raster",
-            "source": "raster-tiles",
+            "source": "wms-imagery",
             "minzoom": 0,
             "maxzoom": 19
         }
