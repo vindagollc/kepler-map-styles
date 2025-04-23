@@ -1102,11 +1102,7 @@
         "https://waprovisoimg.centralindia.cloudapp.azure.com/streaming/wms?service=WMS&request=GetMap&layers=HxGN_Imagery&styles=&format=image%2Fpng&transparent=true&version=1.1.1&width=256&height=256&srs=EPSG%3A3857&bbox={bbox-epsg-3857}"
     ],
     "tileSize": 256
-},
-    "maptiler_attribution": {
-      "type": "vector",
-      "attribution": "<a href=\"https://www.maptiler.com/copyright/\" target=\"_blank\">&copy; MapTiler</a> <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>"
-    }
+}
   },
   "version": 8,
   "metadata": {
