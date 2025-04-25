@@ -13,7 +13,7 @@
     "wms-imagery": {
       "type": "raster",
       "tiles": [
-       "https://maps.ohio.gov/image/services/osip_most_current_cache/MapServer/WMSServer?SERVICE=WMS&version=1.3.0&request=GetMap&BBOX={bbox}&WIDTH={width}&HEIGHT={height}&LAYERS=1&STYLES=&FORMAT=image%2Fpng&CRS={proj}"
+       "https://maps.ohio.gov/image/services/osip_most_current_cache/MapServer/WMSServer?SERVICE=WMS&version=1.3.0&request=GetMap&BBOX={bbox-epsg-3857}&WIDTH=256&HEIGHT=256&LAYERS=1&FORMAT=image%2Fpng&CRS=EPSG%3A3857"
       ],
       "tileSize": 256,
        "attribution": "Ohio Geographically Referenced Information Program (OGRIP)"
