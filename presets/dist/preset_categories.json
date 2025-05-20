@@ -1,4 +1,8 @@
 {
-    "name": "Custom Element",
-    "icon": "maki-shop"
+    "category-custom": {
+        "icon": "iD-custom-stream",
+        "members": [
+            "highway/bikelane"
+        ]
+    }
 }
