@@ -1,5 +1,5 @@
 {
-    "highway/bikelane": {
+    "category-custom/bikelane": {
         "icon": "temaki-pedestrian",
         "geometry": [
             "line"
@@ -8,7 +8,6 @@
             "custom:element_type": "bike-lane"
         },
         "addTags": {
-            "highway": "footway",
             "custom:element_type": "bike-lane"
         },
         "reference": {
