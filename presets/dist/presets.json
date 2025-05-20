@@ -1,0 +1,11 @@
+{
+    "name": "Custom Element Bike Lane",
+    "aliases": ["custom"],
+    "tags" : {
+        "custom:element_type" : "bike_lane"
+    },
+    "geometry" : {
+        "type" : "LineString"
+    },
+    "icon": "maki-shop"
+}
