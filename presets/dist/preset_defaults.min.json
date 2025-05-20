@@ -5,7 +5,7 @@
         "custom:element_type" : "bike_lane"
     },
     "geometry" : {
-        "type" : "LineString"
+        "type" : "line"
     },
     "icon": "maki-shop"
 }
