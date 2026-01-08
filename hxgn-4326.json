@@ -1,0 +1,30 @@
+{
+    "version": 8,
+    "name": "Hexagon-WMS-WA-4326",
+    "zoom": 1,
+    "pitch": 0,
+    "center": [
+        0,
+        0
+    ],
+    "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=kznYvrAC6DrOZXPCW05C",
+    "sources": {
+        "wms-imagery": {
+            "type": "raster",
+            "tiles": [
+                "https://waprovisoimg.centralindia.cloudapp.azure.com/streaming/wms?service=WMS&request=GetMap&layers=HxGN_Imagery&styles=&format=image%2Fpng&transparent=true&version=1.1.1&width=256&height=256&srs=EPSG%3A4326&bbox={bbox-epsg-4326}"
+            ],
+            "tileSize": 256,
+            "attribution": "© OpenStreetMap contributors"
+        }
+    },
+    "layers": [
+        {
+            "id": "osm-tiles",
+            "type": "raster",
+            "source": "wms-imagery",
+            "minzoom": 0,
+            "maxzoom": 19
+        }
+    ]
+}
